@@ -3,7 +3,9 @@
  * Seamless connection to Express.js REST APIs with JWT & MongoDB Atlas
  */
 
-const API_BASE_URL = window.location.port === '5000' ? '' : 'http://localhost:5000';
+const API_BASE_URL = window.location.port === '5000'
+  ? ''
+  : 'https://jk-motel.onrender.com';
 
 const Storage = {
   TOKEN_KEY: 'jk_motel_jwt_token',
